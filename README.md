@@ -27,9 +27,7 @@ Aggregate statistics computed from the processed dataset:
 The analysis was designed to support distributed system experiments evaluating scalability. Two types of scaling were investigated:
 
 - **Strong Scaling**:  
-  Measures how processing efficiency improves with an increasing number of computational resources (e.g., number of processors), while keeping the dataset size fixed.  
-  (`Scalability_Experiments/MSD-Analysis_10000_Strong.ipynb`)
+  Measures how processing efficiency improves with an increasing number of computational resources (e.g., number of processors), while keeping the dataset size fixed. (`Scalability_Experiments/MSD-Analysis_10000_Strong.ipynb`)
 
 - **Weak Scaling**:  
-  Examines how the system handles increased workload as both the dataset size and the number of processors grow proportionally.  
-  (`Scalability_Experiments/MSD-Analysis_10000_Weak.ipynb`)
+  Examines how the system handles increased workload as both the dataset size and the number of processors grow proportionally. (`Scalability_Experiments/MSD-Analysis_10000_Weak.ipynb`)
